@@ -21,6 +21,13 @@ export default function Home() {
         <button className=" text-gray-300 text-[12px] bg-gray-900 outline outline-emerald-600 rounded-[10px] px-[20px] py-[10px]">Ui2</button>
         </Link>
 
+
+
+
+
+
+        .
+
       </div>
 
 
