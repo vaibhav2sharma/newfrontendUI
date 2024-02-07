@@ -2,32 +2,90 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: gilroy;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+#main{
+  height: 100%;
+  width: 100%;
+ 
+}
+#signbtn{
+  border: none;
+  background-color: orangered;
+}
+#phonelogo{
+  color: orangered;
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+#advh1{
+  transform: translate(-50%,-50%);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+#imgrotate1{
+  transform: translate(-50%,-50%)
+  
+  
+
+} 
+#imgrotate2{
+  transform: translate(-50%,-50%) rotate(-50deg);
+  
+  
+
+} 
+#imgrotate3{
+  transform: translate(-50%,-50%) rotate(-40deg);
+  
+  
+
+} 
+#imgrotate4{
+  transform: translate(-50%,-50%) rotate(-30deg);
+  
+  
+
+} 
+#imgrotate5{
+  transform: translate(-50%,-50%) rotate(-20deg);
+ 
+  
+
+} 
+#imgrotate6{
+  transform: translate(-50%,-50%) rotate(-10deg);
+  
+  
+
+} 
+
+
+/* for portfolio project */
+
+#text-div{
+  background-color: #F5F3EF;
+  color: #1E1E21;
+}
+
+#contentdiv1{
+  background-color: #F5F3EF;
+  color: #1E1E21;
+}
+
+#main2{
+  background-color: #F5F3EF;
+  color: #1E1E21;
+}
+#contentdiv2{
+  background-color: #F5F3EF;
+  color: #1E1E21;
+}
+
+#footer{
+  background-color: #1E1E21;
 }
